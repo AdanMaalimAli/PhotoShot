@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet" />
+    <title>PhotoShot</title>
+</head>
+<body class=" flex  bg-gray-100">
+    <div class="fixed shadow-lg top-6 bottom-6 left-2/3  w-px bg-black"></div>
+    <div class="ml-[100px]" >
+        <video autoplay class="h-[400px] w-[600px] transform scale-x-[-1] mb-8 mt-10 rounded-md shadow-lg" id="vedio" ></video>
+        
+        <div class="flex w-[600px] gap-12 justify-center " >
+            <button id="OpenCamera" class="bg-pink-500 p-2 rounded-lg text-white font-mono shadow-md ">OpenCamera</button>
+            <button id="snapshot" class="bg-blue-500 p-2 rounded-lg text-white font-mono shadow-md">TakeShot</button>
+        </div>
+    </div>
+    <div id="captureContainer" class="flex flex-col mb-8 mt-8 ml-[200px] gap-6">
+      
+    </div>
+    <canvas id="canvas" width="300" height="200" class="hidden"></canvas>
+</body>
+<script src="./script.js" ></script>
+</html>
