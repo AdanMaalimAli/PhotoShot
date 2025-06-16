@@ -18,4 +18,3 @@ I focus on clean, scalable, and efficient software that solves real problems.
 ---
 [![](https://visitcount.itsvg.in/api?id=Adanmaalimali&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
